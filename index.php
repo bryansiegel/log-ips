@@ -80,7 +80,7 @@ $ips = $db->query("SELECT * FROM ip_logs ORDER BY logged_at DESC")->fetchAll(PDO
             <th>#</th>
             <th>IP Address</th>
             <th>Amount</th>
-            <th>Logged At</th>
+            <th>Last IP Logged At</th>
         </tr>
         </thead>
         <tbody>
